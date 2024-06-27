@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Interest Calci</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <a href="/06-Dom/index.html"> 
+        Click to calculate Sum 
+    </a> 
+    <br><br>
+  
+    <input onchange="interestd()" id="principle" type="number" placeholder="Enter principle amount">
+    <input onchange="interestd()" id="rate" type="number" placeholder="Enter return rate">
+    <input onchange="interestd()" id="time" type="number" placeholder="Enter investment Time">
+    <br><br>
+    <button onclick="interest()">calculate</button>
+    <div id="ans"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
